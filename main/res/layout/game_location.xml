@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dark_turquoise">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+       >
+
+
+        <!-- Logo and Title -->
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:src="@drawable/logo_project_trojan"
+            android:contentDescription="@string/logo"
+            android:layout_gravity="start"
+            android:layout_marginTop="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:textSize="30sp"
+            android:textColor="#FFFFFF"
+            android:text="@string/title2"
+            android:textStyle="bold" />
+
+
+        <!-- Poster Row 1 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="40dp"
+            android:paddingHorizontal="40dp"
+            android:gravity="center"
+            android:weightSum="2">
+
+            <ImageView
+                android:id="@+id/trailer_placeholder1"
+                android:src="@drawable/location_one"
+                android:layout_width="307dp"
+                android:layout_height="212dp"
+                android:layout_weight="1"
+                android:layout_marginTop="-100dp"
+
+                android:scaleType="fitCenter"
+                android:contentDescription="@string/game_poster_1_description" />
+
+
+
+            <ImageView
+                android:id="@+id/location_two"
+                android:src="@drawable/location_two"
+                android:layout_width="290dp"
+                android:layout_height="241dp"
+                android:layout_weight="1"
+                android:layout_marginTop="130dp"
+                android:layout_marginStart="-340dp"
+
+
+                android:scaleType="fitCenter"
+                android:contentDescription="@string/game_poster_1_description" />
+
+
+        </LinearLayout>
+
+        <!-- Poster Row 2 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            android:paddingHorizontal="40dp"
+            android:gravity="center"
+            android:weightSum="2">
+
+
+
+
+            <ImageView
+                android:id="@+id/location_three"
+                android:src="@drawable/location_three"
+                android:layout_width="1105dp"
+                android:layout_height="212dp"
+                android:layout_weight="1"
+                android:layout_marginTop="0dp"
+                android:layout_marginStart="0dp"
+
+
+                android:scaleType="fitCenter"
+                android:contentDescription="@string/game_poster_1_description" />
+
+
+
+
+
+
+        </LinearLayout>
+
+        <!-- Description Text -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center_horizontal"
+            android:textSize="25sp"
+            android:textColor="#FFFFFF"
+            android:text="@string/description"
+          />
+
+        <TextView
+            android:id="@+id/description_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/description_text3"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp"
+            android:padding="16dp"/>
+
+
+
+        <!-- Footer Divider -->
+
+        <!-- Footer -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="16dp"
+            android:background="#000000">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/logo_project_trojan"
+                    android:contentDescription="@string/logo" />
+
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/contact_us"
+                    android:textColor="@color/dark_turquoise"
+                    android:textStyle="bold"
+                    android:layout_marginStart="16dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:layout_marginTop="8dp">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/email_icon"
+                    android:contentDescription="@string/email" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/email"
+                    android:textColor="@color/dark_turquoise"
+                    android:layout_marginStart="8dp" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/footer_item1"
+                android:textColor="#FFFFFF"
+                android:textSize="11sp"
+                android:layout_marginTop="8dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/footer_item2"
+                android:textColor="#FFFFFF"
+                android:textSize="11sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/footer_item3"
+                android:textColor="#FFFFFF"
+                android:textSize="11sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/footer_item4"
+                android:textColor="#FFFFFF"
+                android:textSize="11sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/copyright"
+                android:textColor="#FFFFFF"
+                android:textSize="11sp"
+                android:layout_marginTop="16dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

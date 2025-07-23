@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dark_turquoise"
+    android:fillViewport="true">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="16dp">
+
+
+        <!-- Header Container -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="0dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp">
+
+
+            <ImageView
+                android:id="@+id/iv_logo"
+                android:layout_width="100dp"
+                android:layout_height="60dp"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginBottom="0dp"
+                android:src="@drawable/logo_project_trojan"
+                android:contentDescription="@string/logo" />
+        </RelativeLayout>
+
+
+        <!-- Content container with horizontal padding -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp">
+
+
+            <!-- Page Title -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="30dp"
+                android:text="Our Vision"
+                android:textColor="@color/white"
+                android:textSize="32sp"
+                android:textStyle="bold" />
+
+
+            <!-- FAQ Items -->
+            <LinearLayout
+                android:id="@+id/faq_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <!-- FAQ Items - Repeating pattern -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="8dp">
+
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Could you summarise the core gameplay for Trojan and explain the primary motivation behind its design?"
+                        android:textSize="17sp"
+                        android:textColor="@color/white"
+                        android:padding="8dp"
+                        android:gravity="center_vertical" />
+
+
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_marginStart="8dp"
+                        android:src="@android:drawable/ic_menu_add" />
+                </LinearLayout>
+
+
+                <!-- More FAQ items (you had 5) -->
+                <!-- Repeat the same structure as above with your questions -->
+                <!-- For brevity, I’ll include only the second as an example -->
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="8dp">
+
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="How did the team arrive at the specific colour themes to create the intended atmosphere of tension and claustrophobia?"
+                        android:textSize="17sp"
+                        android:textColor="@color/white"
+                        android:padding="8dp"
+                        android:gravity="center_vertical" />
+
+
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_marginStart="8dp"
+                        android:src="@android:drawable/ic_menu_add" />
+                </LinearLayout>
+
+
+                <!-- FAQ 3 -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="8dp">
+
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="What were the key inspirations or influences that shaped the health sector mechanics and the overall setting of 'Trojan'?"
+                        android:textSize="17sp"
+                        android:textColor="@color/white"
+                        android:padding="8dp"
+                        android:gravity="center_vertical" />
+
+
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_marginStart="8dp"
+                        android:src="@android:drawable/ic_menu_add" />
+                </LinearLayout>
+
+
+                <!-- FAQ 4 -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="8dp">
+
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="From the game designer’s perspective, what is the most important aspect of the player experience you aim to create with 'Trojan'?"
+                        android:textSize="17sp"
+                        android:textColor="@color/white"
+                        android:padding="8dp"
+                        android:gravity="center_vertical" />
+
+
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_marginStart="8dp"
+                        android:src="@android:drawable/ic_menu_add" />
+                </LinearLayout>
+
+
+                <!-- FAQ 5 -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="8dp">
+
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="How did the experimental use of the project contribute to the game’s narrative and the player’s sense of immersion with the high-tech facility?"
+                        android:textSize="17sp"
+                        android:textColor="@color/white"
+                        android:padding="8dp"
+                        android:gravity="center_vertical" />
+
+
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_marginStart="8dp"
+                        android:src="@android:drawable/ic_menu_add" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <!-- Footer Section -->
+        <LinearLayout
+            android:id="@+id/footer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:orientation="vertical"
+            android:background="#1E1E1E"
+            android:padding="16dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal">
+
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="45dp"
+                    android:contentDescription="@string/logo"
+                    android:padding="6dp"
+                    android:src="@drawable/logo_project_trojan" />
+
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_weight="1"
+                    android:baselineAligned="false"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/contact_us"
+                        android:textColor="@color/dark_turquoise"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+
+                    <ImageView
+                        android:id="@+id/email_icon"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="16dp"
+                        android:contentDescription="@string/email"
+                        android:src="@drawable/email_icon" />
+
+
+                    <TextView
+                        android:id="@+id/email_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:text="@string/email"
+                        android:textColor="@color/dark_turquoise"
+                        android:textSize="11sp" />
+
+
+                    <TextView
+                        android:id="@+id/footer_item1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/footer_item1"
+                        android:textColor="@color/white"
+                        android:textSize="11sp" />
+
+
+                    <TextView
+                        android:id="@+id/footer_item2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/footer_item2"
+                        android:textColor="@color/white"
+                        android:textSize="11sp" />
+
+
+                    <TextView
+                        android:id="@+id/footer_item3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/footer_item3"
+                        android:textColor="@color/white"
+                        android:textSize="11sp" />
+
+
+                    <TextView
+                        android:id="@+id/footer_item4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/footer_item4"
+                        android:textColor="@color/white"
+                        android:textSize="11sp" />
+
+
+                    <TextView
+                        android:id="@+id/footer_copyright"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/copyright"
+                        android:textColor="@color/white"
+                        android:textSize="11sp" />
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/copyright"
+                android:textColor="@color/white"
+                android:textSize="11sp" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>
