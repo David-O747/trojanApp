@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dark_turquoise">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="0dp">
+
+        <!-- Logo -->
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="150dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="-30dp"
+            android:contentDescription="@string/logo"
+            android:src="@drawable/logo_project_trojan"
+            android:layout_alignParentStart="true" />
+
+        <!-- About the Game Title -->
+        <TextView
+            android:id="@+id/title_about_game"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/logo"
+            android:layout_centerHorizontal="true"
+            android:text="@string/About_the_game"
+            android:textSize="30sp"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <!-- Trailer Placeholder -->
+        <ImageView
+            android:id="@+id/trailer"
+            android:layout_width="380dp"
+            android:layout_height="200dp"
+            android:src="@drawable/trailer_placeholder"
+            android:layout_below="@id/title_about_game"
+            android:layout_marginTop="20dp"
+            android:contentDescription="@string/About_the_game"
+    android:layout_marginLeft="15dp"
+            />
+
+        <!-- Age rating and release date -->
+        <TextView
+            android:id="@+id/age_rating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/trailer"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="20dp"
+            android:text="@string/age_rating"
+            android:textSize="19sp"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/release_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/age_rating"
+            android:layout_toEndOf="@id/age_rating"
+            android:layout_marginStart="98dp"
+            android:text="@string/release_date"
+            android:textSize="19sp"
+            android:textColor="@color/white" />
+
+        <!-- Description Title -->
+        <TextView
+            android:id="@+id/description_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/age_rating"
+            android:layout_marginTop="50dp"
+            android:layout_centerHorizontal="true"
+            android:text="@string/description"
+            android:textSize="25sp"
+            android:textColor="@color/white" />
+
+        <!-- Genre & Platform -->
+        <TextView
+            android:id="@+id/description_genre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/description_title"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="24dp"
+            android:text="@string/genre"
+            android:textSize="15sp"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/description_platform"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/description_genre"
+            android:layout_toEndOf="@id/description_genre"
+            android:layout_marginStart="185dp"
+            android:text="@string/platform"
+            android:textSize="15sp"
+            android:textColor="@color/white" />
+
+        <!-- Description Body -->
+        <TextView
+            android:id="@+id/description_text_body"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/description_genre"
+            android:layout_marginTop="35dp"
+            android:layout_marginStart="10dp"
+            android:padding="10dp"
+            android:layout_centerHorizontal="true"
+            android:text="@string/description_text"
+            android:textSize="15sp"
+            android:textColor="@color/white" />
+
+
+
+        <TextView
+            android:id="@+id/description_text_part2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/description_genre"
+            android:layout_marginTop="145dp"
+            android:layout_marginStart="10dp"
+            android:padding="10dp"
+            android:layout_centerHorizontal="true"
+            android:text="@string/description_text_part2"
+            android:textSize="15sp"
+            android:textColor="@color/white" />
+        <!-- Pre-order Button -->
+        <Button
+            android:id="@+id/buttonRight"
+            android:layout_width="250dp"
+            android:layout_height="55dp"
+            android:layout_below="@id/description_text_part2"
+            android:layout_marginTop="20dp"
+            android:layout_centerHorizontal="true"
+            android:text="@string/pre_order_now"
+            android:textSize="25sp"
+            android:textColor="@color/blue"
+            android:background="@drawable/rounded_button"
+            android:contentDescription="@string/pre_order_now" />
+
+        <!-- Gameplay Visuals Section -->
+        <TextView
+            android:id="@+id/gameplay_visuals_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/buttonRight"
+            android:layout_marginTop="40dp"
+            android:layout_centerHorizontal="true"
+            android:text="@string/gameplay_visuals"
+            android:textSize="25sp"
+            android:textColor="@color/white" />
+
+        <!-- Row 1 Screenshots -->
+        <ImageView
+            android:id="@+id/gameplay_screenshot"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_below="@id/gameplay_visuals_title"
+            android:layout_marginTop="20dp"
+            android:layout_alignParentStart="true"
+            android:contentDescription="@string/gameplay_visuals"
+            android:src="@drawable/gameplay_visual1" />
+
+        <ImageView
+            android:id="@+id/gameplay_screenshot2"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_alignTop="@id/gameplay_screenshot"
+            android:layout_toEndOf="@id/gameplay_screenshot"
+            android:layout_marginStart="10dp"
+            android:contentDescription="@string/gameplay_visuals"
+            android:src="@drawable/gameplay_visual2" />
+
+        <!-- Row 2 Screenshots -->
+        <ImageView
+            android:id="@+id/gameplay_screenshot3"
+            android:layout_width="290dp"
+            android:layout_height="100dp"
+            android:layout_below="@id/gameplay_screenshot"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="-45dp"
+            android:contentDescription="@string/gameplay_visuals"
+            android:src="@drawable/gameplay_visual3" />
+
+        <ImageView
+            android:id="@+id/gameplay_screenshot4"
+            android:layout_width="290dp"
+            android:layout_height="100dp"
+            android:layout_alignTop="@id/gameplay_screenshot3"
+            android:layout_toEndOf="@id/gameplay_screenshot3"
+            android:layout_marginStart="-40dp"
+            android:contentDescription="@string/gameplay_visuals"
+            android:src="@drawable/gameplay_visual4" />
+
+        <!-- Description text for screenshots -->
+        <TextView
+            android:id="@+id/description_screenshots_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/gameplay_screenshot3"
+            android:layout_marginTop="20dp"
+            android:layout_centerHorizontal="true"
+            android:text="@string/description_screenshots_text"
+            android:textSize="15sp"
+            android:padding="5dp"
+            android:textColor="@color/white" />
+
+        <!-- Gameplay Poster Section -->
+        <TextView
+            android:id="@+id/gameplay_posters_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/description_screenshots_text"
+            android:layout_marginTop="40dp"
+            android:layout_centerHorizontal="true"
+            android:text="@string/gameplay_poster_title"
+            android:textSize="25sp"
+            android:textColor="@color/white" />
+
+        <ImageView
+            android:id="@+id/game_poster"
+            android:layout_width="400dp"
+            android:layout_height="400dp"
+            android:padding="5dp"
+            android:layout_below="@id/gameplay_posters_title"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="30dp"
+            android:contentDescription="@string/game_poster"
+            android:src="@drawable/poster" />
+
+        <TextView
+            android:id="@+id/description_title_end"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/game_poster"
+            android:layout_marginTop="0dp"
+            android:layout_marginStart="5dp"
+            android:padding="5dp"
+            android:text="@string/poster_description"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+
+        <RelativeLayout
+            android:id="@+id/footer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/description_title_end"
+            android:layout_marginTop="30dp"
+            android:background="#1E1E1E">
+
+            <ImageView
+                android:id="@+id/logo_footer"
+                android:layout_width="100dp"
+                android:layout_height="60dp"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="-20dp"
+                android:layout_marginTop="10dp"
+                android:contentDescription="@string/logo"
+                android:src="@drawable/logo_project_trojan" />
+
+            <TextView
+                android:id="@+id/contact_us"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/logo_footer"
+                android:layout_toEndOf="@id/logo_footer"
+                android:layout_marginStart="10dp"
+                android:text="@string/contact_us"
+                android:textStyle="bold"
+                android:textColor="@color/dark_turquoise" />
+
+            <ImageView
+                android:id="@+id/email_icon"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_below="@id/logo_footer"
+                android:layout_marginTop="16dp"
+                android:layout_marginStart="10dp"
+                android:contentDescription="@string/email"
+                android:src="@drawable/email_icon" />
+
+            <TextView
+                android:id="@+id/email_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/email_icon"
+                android:layout_toEndOf="@id/email_icon"
+                android:layout_marginStart="10dp"
+                android:text="@string/email"
+                android:textColor="@color/dark_turquoise" />
+
+            <TextView
+                android:id="@+id/footer_item1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/email_icon"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="50dp"
+                android:text="@string/footer_item1"
+                android:textColor="@color/white"
+                android:textSize="11sp" />
+
+            <TextView
+                android:id="@+id/footer_item2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/footer_item1"
+                android:layout_marginStart="50dp"
+                android:text="@string/footer_item2"
+                android:textColor="@color/white"
+                android:textSize="11sp" />
+
+            <TextView
+                android:id="@+id/footer_item3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/footer_item2"
+                android:layout_marginStart="50dp"
+                android:text="@string/footer_item3"
+                android:textColor="@color/white"
+                android:textSize="11sp" />
+
+            <TextView
+                android:id="@+id/footer_item4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/footer_item3"
+                android:layout_marginStart="50dp"
+                android:text="@string/footer_item4"
+                android:textColor="@color/white"
+                android:textSize="11sp" />
+
+            <TextView
+                android:id="@+id/footer_copyright"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/footer_item4"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:text="@string/copyright"
+                android:textColor="@color/white"
+                android:textSize="11sp" />
+
+        </RelativeLayout>
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+        <item
+            android:title="@string/menu"
+            android:id="@+id/menu_icon"
+            app:showAsAction="always"
+            android:icon="@drawable/menu_icon_blue">
+                <menu>
+                        <item
+                            android:id="@+id/about_game"
+                            android:title="@string/about_game" />
+                        <item
+                            android:id="@+id/gameplay_video"
+                            android:title="@string/gameplay_video" />
+                        <item
+                            android:id="@+id/game_location"
+                            android:title="@string/game_location" />
+                        <item
+                            android:id="@+id/faq"
+                            android:title="@string/faq" />
+                        <item
+                            android:id="@+id/contact_us"
+                            android:title="@string/contact_us" />
+                </menu>
+
+        </item>
+
+</menu>

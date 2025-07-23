@@ -1,0 +1,120 @@
+<resources>
+    <string name="app_name">App</string>
+        <string name="age_rating">16+</string>
+        <string name="release_date">Release date: 6 august 2025</string>
+    <string name="About_the_game">About the game</string>
+    <string name="description">Description</string>
+
+    <string name="genre">Genre : Sci-Fi</string>
+    <string name="platform">Platform : PC</string>
+    <string name="description_text">Trapped in a high-tech facility, you play as an engineer caught in a web of deception. The AI that runs the facility pretends to be human, watching your every move from the shadows. The halls are empty, yet you never feel alone. Cameras turn. Doors shut behind you.</string>
+
+
+    <string name="description_text_part2">Something is always just out of sight. As you explore and investigate, the feeling of being followed grows. You must question everything, sounds, lights, and even your own path. The game challenges you to move with caution, rely on your instincts, and never let your guard down. Isolation, mistrust, and precision are key if you want to escape.
+</string>
+
+
+    <string name="gameplay_visuals">Gameplay visuals</string>
+    <string name="pre_order_now">Pre-order now !</string>
+
+    <string name="footer_item1">Phone specialists</string>
+    <string name="footer_item2">Designers</string>
+    <string name="footer_item3">Developers</string>
+    <string name="footer_item4">Advice</string>
+
+    <string name="email">your-email@gmail.com</string>
+
+    <string name="contact_us">Contact us</string>
+
+    <string name="game_poster"> Game poster</string>
+
+    <string name="copyright">Copyright 2025 </string>
+
+    <string name="gameplay_poster_title">Game poster</string>
+    <string name="logo">logo </string>
+
+    <string name="menu">menu </string>
+    <string name="enter_surname"> Enter your surname</string>
+    <string name="faq">FAQ </string>
+
+    <string name="email_input_title">Email </string>
+
+    <string name="about_game">About game </string>
+
+
+
+    <string name="submit"> Submit
+    </string>
+    <string name="enquiry"> Enquiry
+    </string>
+    <string name="enter_your_enquiry"> Enter your enquiry
+    </string>
+
+    <string name="first_name">First name </string>
+
+    <string name="game_location">Game location </string>
+
+    <string name="gameplay_video">Gameplay video </string>
+    <string name="enter_your_email">Enter your email</string>
+    <string name="enter_firstname">Enter your first name </string>
+
+    <string name="poster_description"> The poster for the game "Trojan" features a character in a facility with a mysterious sci-fi atmosphere, evoking an isolated thriller look and vibe, which is characterized by a unique dark atmosphere, used to evoke feelings of isolation and claustrophobia. </string>
+
+
+    <string name="description_title">Description </string>
+
+
+
+    <string name="description_screenshots_text">The screenshots should hint at the thriller elements. This could be through the presence of a dark background that suggest an unpredictable mysterious environment. </string>
+
+
+
+
+        <string name="description_text1"> The poster for the game "Trojan" features a character in a facility with a mysterious sci-fi atmosphere, evoking an isolated thriller look and vibe.</string>
+
+        <string name="description_text2">
+    Which is characterized by a unique colour palette of purple, dark shades, and red, used to evoke feelings of isolation and claustrophobia.
+    </string>
+
+        <string name="description_text3"> The game Trojan is set within a "Dark high-tech facility." This immediately establishes a sci-fi setting, implying advanced technology and a potentially sterile, industrial environment.The atmosphere is heavily influenced by the colour palette and gameplay mechanics. The game utilizes a "mixture of purple, dark shades."
+    </string>
+
+        <string name="description_text4"> This stealth-puzzle element reinforces the feelings of isolation and claustrophobia by limiting the player\'s visibility and movement forcing them to be cautions and strategic during gameplay. The presence of security measures also suggests a controlled environment, adding to the sense of confinement. The guidance from a "mysterious voice over the intercom" adds an element of uncertainty and potential threat, further enhancing the tense atmosphere.
+    </string>
+
+        <string name="title">Trojan</string>
+
+
+    <string name="title2">Game Locations</string>
+
+        <string name="trojan_logo" translatable="false">Trojan logo</string>
+        <string name="menu_icon_description" translatable="false">Menu icon</string>
+        <string name="game_poster_1_description" translatable="false">Game Poster 1</string>
+        <string name="game_poster_2_description" translatable="false">Game Poster 2</string>
+        <string name="game_poster_3_description" translatable="false">Game Poster 3</string>
+        <string name="game_poster_4_description" translatable="false">Game Poster 4</string>
+
+
+
+
+        <string name="email_icon" translatable="false">Email icon</string>
+        <string name="instagram_icon_description" translatable="false">Instagram icon</string>
+        <string name="tiktok_icon_description" translatable="false">TikTok icon</string>
+
+
+    <string name="gameplay_videos_description_part2">This visual preview should highlight the unique features of the game and create a sense of intrigue for potential players.</string>
+
+
+
+    <string name="gameplay_videos_description_part3">Focusing on immersing viewers in the experience of navigating a high-tech, claustrophobic facility, where stealth and puzzle-solving are your only allies. As a lone engineer, guided by a cryptic voice, you must outwit security cameras and patrol bots to escape</string>
+
+
+
+
+    <string name="gameplay_videos_description_part5">The uniqueness of the gameplay is defined by a selection of dark shades and mystery, designed to heighten your sense of isolation and suspense.</string>
+
+    <string name="gameplay_videos_description_part4">Immerse yourself in the chilling world of Trojan with this exclusive gameplay preview.
+</string>
+
+
+</resources>
